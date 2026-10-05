@@ -112,6 +112,59 @@ main {
   margin-bottom: 0.85rem;
 }
 
+.bio-topics {
+  list-style: none;
+  margin: 0.3rem 0 0.85rem 0;
+  padding: 0;
+}
+
+.bio-topics li {
+  font-size: 0.88rem;
+  color: #444;
+  padding: 0.1rem 0 0.1rem 0.9rem;
+  position: relative;
+}
+
+.bio-topics li::before {
+  content: '·';
+  position: absolute;
+  left: 0;
+  color: #C41230;
+  font-weight: 700;
+}
+
+.bio-subtopics {
+  list-style: none;
+  margin: 0.1rem 0 0.2rem 0;
+  padding: 0;
+}
+
+.bio-subtopics li {
+  font-size: 0.78rem;
+  color: #888;
+  padding: 0 0 0 0.9rem;
+  position: relative;
+}
+
+.bio-subtopics li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: #ccc;
+}
+
+.bio-methods {
+  font-size: 0.84rem;
+  color: #666;
+  margin-bottom: 0.85rem;
+}
+
+.bio-methods span {
+  font-weight: 600;
+  color: #444;
+}
+
+
 .profile-links {
   display: flex;
   flex-wrap: wrap;
@@ -176,7 +229,6 @@ main {
 /* ── NEWS ── */
 .news-list {
   list-style: none;
-  max-width: 560px;
 }
 
 .news-list li {
@@ -224,6 +276,7 @@ main {
   border-left-color: #C41230;
   background: #fff8f8;
 }
+
 
 .paper .title {
   font-weight: 300;
