@@ -33,13 +33,13 @@
         <h1>Nikhil Malik</h1>
         <p class="position">Assistant Professor of Marketing and Business Technology</p>
         <p class="position-sub">Tepper School of Business, Carnegie Mellon University</p>
-        <p>My research examines the impact of AI and technology on human choices and equilibrium market outcomes. Some topics of interest are:</p>
+        <p>My research examines the impact of AI and technology on human choices and equilibrium market outcomes.</p>
         <ul class="bio-topics">
           <li>Economics of AI
             <ul class="bio-subtopics">
-              <li>Algorithmic pricing in one-of-a-kind markets (inspired by Zestimate)</li>
-              <li>Feedback loops, optimal algorithm design, asymmetric benefits</li>
-              <li>LLMs&rsquo; world model, design of AI explanations, econometric biases</li>
+              <li>LLMs&rsquo; world model, design of AI explanations</li>
+              <li>AI Risks: Feedback Loops, asymmetric information, biases, and strategic manipulation</li>
+              <li>Algorithmic pricing</li>
             </ul>
           </li>
           <li>Digital Platforms
@@ -58,7 +58,6 @@
         </div>
         <div class="paper-group-label" style="margin-top:1.1rem; margin-bottom:0.5rem;">Background</div>
         <ul class="timeline-list">
-          <li><span class="timeline-year">2025–</span><span>Assistant Professor of Marketing and BT · Tepper School of Business, CMU</span></li>
           <li><span class="timeline-year">2021–25</span><span>Assistant Professor of Marketing · Marshall School of Business, USC</span></li>
           <li><span class="timeline-year">2016–20</span><span>MS and PhD at Carnegie Mellon University</span></li>
           <li><span class="timeline-year">2011–16</span><span>Quantitative Strategist · Goldman Sachs</span></li>
@@ -80,13 +79,21 @@
 
     <!-- Research -->
     <div class="section">
-      <div class="section-title">Research</div>
+      <div class="section-title research-head">Research
+        <span class="view-toggle" hidden>
+          <button type="button" data-view="status" class="active">By Status</button>
+          <button type="button" data-view="topic">By Topic</button>
+          <button type="button" data-view="method">By Methodology</button>
+        </span>
+      </div>
+
+      <div id="research-status">
 
       <!-- Published -->
-      <details class="dropdown-section">
+      <details class="dropdown-section dropdown-tinted" open>
         <summary class="paper-group-label">Published</summary>
 
-        <div class="paper">
+        <div class="paper" data-topic="ai" data-method="theory-empirical" data-method-rank="3" data-rank="70">
           <div class="title">"The Asymmetric Value of Algorithmic Information in Two-Sided Platforms: Evidence from Zillow"</div>
           <div class="authors">Troncoso I., Malik N., Fu R., Proserpio D.</div>
           <div class="venue"><span class="badge badge-forthcoming">Accepted</span> <em>Quantitative Marketing and Economics (QME)</em></div>
@@ -95,26 +102,26 @@
           </div>
         </div>
 
-        <div class="paper">
+        <div class="paper" data-topic="ai" data-method="method" data-rank="65">
           <div class="title">"Estimation Bias from Machine-Learned Features in Econometric Models"</div>
           <div class="authors">Wei M., Malik N.</div>
           <div class="venue"><span class="badge badge-forthcoming">accepted</span> <em>Management Science</em></div>
           <div class="paper-links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4113608" target="_blank">SSRN</a></div>
         </div>
 
-        <div class="paper">
+        <div class="paper" data-topic="ai" data-method="theory" data-rank="60">
           <div class="title">"Regulating eXplainable Artificial Intelligence (XAI) May Harm Consumers"</div>
-          <div class="authors">Mohammadi B., Malik N., Srinivasan K., Derdenger T.</div>
+          <div class="authors">Mohammadi B., Malik N., Derdenger T., Srinivasan K.</div>
           <div class="venue"><a href="https://pubsonline.informs.org/doi/abs/10.1287/mksc.2022.0396" target="_blank"><em>Marketing Science</em></a> 44.3 (2025): 711–724.</div>
         </div>
 
-        <div class="paper">
-          <div class="title">"When does beauty pay? A large-scale image-based appearance analysis on career transitions"</div>
+        <div class="paper" data-topic="ai" data-method="empirical" data-rank="50">
+          <div class="title">"When does beauty pay?"</div>
           <div class="authors">Malik N., Singh P.V., Srinivasan K.</div>
           <div class="venue"><a href="https://pubsonline.informs.org/doi/abs/10.1287/isre.2021.0559" target="_blank"><em>Information Systems Research</em></a> 35.4 (2024): 1524–1545.</div>
         </div>
 
-        <div class="paper">
+        <div class="paper" data-topic="platforms" data-method="theory" data-rank="30">
           <div class="title">"Why bitcoin will fail to scale?"</div>
           <div class="authors">Malik N., Aseri M., Singh P.V., Srinivasan K.</div>
           <div class="venue"><a href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2021.4271" target="_blank"><em>Management Science</em></a> 68.10 (2022): 7323–7349.</div>
@@ -122,25 +129,25 @@
 
         <div class="paper-group-label dropdown-sublabel">Invited</div>
 
-        <div class="paper">
+        <div class="paper" data-topic="platforms" data-method="review" data-rank="40">
           <div class="title">"Blockchain technology for creative industries: Current state and research opportunities"</div>
           <div class="authors">Malik N., Wei M., Appel G., Luo L.</div>
-          <div class="venue"><a href="https://www.sciencedirect.com/science/article/pii/S0167811622000635" target="_blank"><em>International Journal of Research in Marketing</em></a> 40.1 (2023): 38–48.</div>
+          <div class="venue"><a href="https://www.sciencedirect.com/science/article/pii/S0167811622000635" target="_blank"><em>IJRM</em></a> 40.1 (2023): 38–48.</div>
         </div>
 
-        <div class="paper">
+        <div class="paper" data-topic="ai" data-method="review" data-rank="20">
           <div class="title">"Deep Learning in Computer Vision — Methods, Interpretation, Causation and Fairness"</div>
           <div class="authors">Malik N., Singh P.V.</div>
-          <div class="venue"><a href="https://doi.org/10.1287/educ.2019.0201" target="_blank"><em>Operations Research &amp; Management Science in the Age of Analytics</em></a>, INFORMS (2019).</div>
+          <div class="venue"><a href="https://doi.org/10.1287/educ.2019.0201" target="_blank"><em>Tutorials in OR</em></a>, INFORMS (2019).</div>
           <div class="paper-links"><a href="https://www.informs.org/Resource-Center/Video-Library/INFORMS-TutORials-in-Operations-Research/2019-TutORials-presentations/2019-TutORials-Deep-Learning-in-Computer-Vision" target="_blank">Video</a></div>
         </div>
       </details>
 
-      <!-- Working Papers -->
+      <!-- Working Papers + Work in Progress -->
       <details class="dropdown-section" open>
         <summary class="paper-group-label">Working Papers</summary>
 
-        <div class="paper">
+        <div class="paper" data-topic="ai" data-method="theory-empirical" data-method-rank="2" data-rank="80">
           <div class="title">"Does Machine Learning amplify pricing errors in housing market? Economics of ML Feedback Loops"</div>
           <div class="authors">Malik N., Manzoor E.A.</div>
           <div class="venue"><span class="badge badge-rr">R&amp;R</span> <em>Management Science</em></div>
@@ -151,23 +158,24 @@
           </div>
         </div>
 
-        <div class="paper">
+        <div class="paper" data-topic="platforms" data-method="empirical" data-rank="95" data-topic-tag="iTunes">
           <div class="title">"Designing Effective Music Excerpts"</div>
           <div class="authors">Manzoor E.A., Malik N.</div>
           <div class="venue"><span class="badge badge-forthcoming">Conditionally Accepted</span> <em>Marketing Science</em></div>
           <div class="paper-links"><a href="https://arxiv.org/abs/2309.14475" target="_blank">arXiv</a></div>
         </div>
 
-      </details>
+        <div class="paper-group-label dropdown-sublabel">Work in Progress</div>
 
-      <!-- Work in Progress -->
-      <details class="dropdown-section">
-        <summary class="paper-group-label">Work in Progress</summary>
-
-        <div class="paper-compact"><span class="title">"Platform design of algorithmic pricing models"</span> &middot; Malik N., Wei M. &middot; <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4403371" target="_blank">SSRN</a></div>
-        <div class="paper-compact"><span class="title">"The Regulation of Sexually Suggestive Live Streaming Content"</span> &middot; Yuan Y., Malik N., Wang W., Srinivasan K.</div>
-        <div class="paper-compact"><span class="title">"The Welfare Effects of Super Apps"</span> &middot; Dai J., Derdenger T., Kim M., Malik N.</div>
+        <div class="paper-compact" data-topic="ai" data-method="theory" data-rank="90"><span class="title">"Platform design of algorithmic pricing models"</span> &middot; Malik N., Wei M. &middot; <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4403371" target="_blank">SSRN</a></div>
+        <div class="paper-compact" data-topic="platforms" data-method="empirical" data-rank="110" data-topic-tag="Douyin (TikTok)"><span class="title">"The Regulation of Sexually Suggestive Live Streaming Content"</span> &middot; Yuan Y., Malik N., Wang W., Srinivasan K. &middot; <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5261083" target="_blank">SSRN</a></div>
+        <div class="paper-compact" data-topic="platforms" data-method="theory-empirical" data-method-rank="1" data-rank="120" data-topic-tag="Grab"><span class="title">"The Welfare Effects of Super Apps"</span> &middot; Dai J., Derdenger T., Kim M., Malik N. &middot; <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6552519" target="_blank">SSRN</a></div>
+        <div class="paper-compact" data-topic="ai" data-method="method" data-rank="130"><span class="title">"Mechanistic Interpretability for LLM based financial choices"</span></div>
       </details>
+      </div>
+
+      <!-- By Topic / By Methodology views are built from the data-* tags above -->
+      <div id="research-alt" hidden></div>
 
       <!-- Students -->
       <div style="border-top: 1px solid #e8e8e8; margin: 1.4rem 0;"></div>
@@ -219,6 +227,59 @@
     <a href="mailto:malnik@cmu.edu">malnik@cmu.edu</a>
   </div>
 </footer>
+
+<script>
+(function () {
+  var groups = {
+    topic:  [['ai', 'Economics of AI/ML'], ['platforms', 'Platforms']],
+    method: [['theory', 'Theory'], ['empirical', 'Empirical'], ['theory-empirical', 'Theory + Empirical'], ['method', 'Method'], ['review', 'Review']]
+  };
+  var status = document.getElementById('research-status');
+  var alt = document.getElementById('research-alt');
+  var toggle = document.querySelector('.view-toggle');
+  var papers = Array.prototype.slice.call(status.querySelectorAll('[data-topic]'));
+
+  // a view-specific rank (e.g. data-method-rank) overrides the default recency rank
+  function rank(p, view) {
+    return +(p.getAttribute('data-' + view + '-rank') || p.getAttribute('data-rank'));
+  }
+
+  function show(view) {
+    toggle.querySelectorAll('button').forEach(function (b) {
+      b.classList.toggle('active', b.getAttribute('data-view') === view);
+    });
+    if (view === 'status') { status.hidden = false; alt.hidden = true; return; }
+    alt.innerHTML = '';
+    groups[view].forEach(function (g) {
+      var list = papers.filter(function (p) { return p.getAttribute('data-' + view) === g[0]; })
+        .sort(function (a, b) { return rank(b, view) - rank(a, view); });
+      if (!list.length) return;
+      var sec = document.createElement('div');
+      sec.className = 'alt-group';
+      sec.innerHTML = '<div class="paper-group-label">' + g[1] + '</div>';
+      list.forEach(function (p) {
+        var c = p.cloneNode(true);
+        var tag = p.getAttribute('data-topic-tag');
+        if (tag && view === 'topic') {
+          var s = document.createElement('span');
+          s.className = 'badge badge-wip alt-tag';
+          s.textContent = tag;
+          c.appendChild(s);
+        }
+        sec.appendChild(c);
+      });
+      alt.appendChild(sec);
+    });
+    status.hidden = true; alt.hidden = false;
+  }
+
+  toggle.hidden = false;
+  toggle.addEventListener('click', function (e) {
+    var v = e.target.getAttribute('data-view');
+    if (v) show(v);
+  });
+})();
+</script>
 
 </body>
 </html>
